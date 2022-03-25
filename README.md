@@ -48,35 +48,10 @@ Some additional points for projects that wrap code in R / Python packages:
 # Tips for implementation
 ## General
 
-#### How to document code
-Documenting your code should always be less about the "what" and more about the "why". However, if you are writing code which might be a bit more advanced/complex, adding some comments about _how_ it works is also useful, especially for the less experienced team members.
-
-#### Peer review 
-Peer reviewing someone else's code involves three things:
-
-1. test the code on your machine
-2. provide feedback (possibly suggesting changes)
-
-Whenever the skills of the team allow for it, you should use [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) and [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for this. [Pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) are a great way to directly suggest changes.
-
-If a team member is still quite new to Git, a file-driven "review process" (e.g. `data_cleaning_jack.R`) is also acceptable as to not overwhelm them with Git. You can leave comments in the file and commit it back to Git or discuss your feedback in a GitHub issue. Always be kind to team members with less experience.
+See the docs [here](https://docs.correlaid.org/project-manual/project-team/best-practices/collaboration#general-best-practices).
 
 ## R 
-#### code styling
-You can use the [styler](https://styler.r-lib.org/) package.
-
-```
-styler::style_dir()
-```
-
-You can also adapt the default tidyverse style to your liking (e.g. different identation). What matters is the consistency.
-
-#### code linting
-The [lintr](https://github.com/r-lib/lintr) package provides linting functionalities.
+See the documentation about [R best practices here](https://docs.correlaid.org/project-manual/project-team/best-practices/r).
 
 ## Python
-## code styling and linting 
-
-There are various libraries for styling and linting code, some covering both aspects.
-
-See [this blog post](https://deepsource.io/blog/python-code-formatters/) for an overview over code styling libraries. [This one](https://realpython.com/python-code-quality/) goes into more detail about the difference between linting and styling/formatting.
+See the documentation about [Python best practices here](https://docs.correlaid.org/project-manual/project-team/best-practices/python).
