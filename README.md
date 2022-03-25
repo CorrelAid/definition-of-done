@@ -10,7 +10,7 @@ Especially in volunteering contexts, it is important to have concrete achievemen
 But how do we know that we're really done and have not forgotten anything important? At CorrelAid, we use a Definition of Done. 
 A Definition of Done (DoD) is a tool from Scrum, a popular framework that is often used in software development. It "creates transparency by providing everyone a shared understanding" of what "being done" means ([Scrum Guide](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100), p.12).
 
-We know that it can be hard to pay attention to things like code quality and documentation when your time resources are scarce - as is often the case with volunteering. However, we have found that things like good documentation and structure are a key factor for the long-term success and impact of CorrelAid projects. Broken or poorly documented code is very hard to use or adapt by NPO partners who are often coding beginners. Without a good README, it will be hard to impossible to for someone at CorrelAid to help out the NPO if a problem comes up a couple of months later when you're already off the project. And having old, irrelevant code or visualizations in your repository is probably very confusing for someone not familiar with the project. 
+We know that it can be hard to pay attention to things like code quality and documentation when your time resources are scarce - as is often the case with volunteering. However, we have found that things like good documentation and structure are a key factor for the long-term success and impact of CorrelAid projects. Well documented code can be adapted by NPO partners who are often coding beginners. With a good README, someone at CorrelAid can help out the NPO if a problem comes up a couple of months later when you're already off the project. Not having old, irrelevant code or visualizations in your repository makes it easier for someone not familiar with the project to find the relevant files and data.
 # Definition of Done
 
 - **Functionality**: the code runs / has no defects
@@ -27,6 +27,8 @@ We know that it can be hard to pay attention to things like code quality and doc
 - **Consistent code style**: code is styled consistently
 
 ## R / Python packages
+Some additional points for projects that wrap code in R / Python packages:
+
 - **Code documentation**: Function/class documentation is up to date (e.g. roxygen / documentation strings)
 - **Unit tests**
     - existing unit tests pass
@@ -39,7 +41,8 @@ We know that it can be hard to pay attention to things like code quality and doc
 ## General
 
 #### How to document code
-Documenting your code should always be less about the "what" and more about the "why". 
+Documenting your code should always be less about the "what" and more about the "why". However, if you are writing code which might be a bit more advanced/complex, adding some comments about _how_ it works is also useful, especially for the less experienced team members.
+
 #### Peer review 
 Peer reviewing someone else's code involves three things:
 
@@ -58,14 +61,14 @@ You can use the [styler](https://styler.r-lib.org/) package.
 styler::style_dir()
 ```
 
-You can also adapt the default tidyverse style (e.g. different identation). What matters is the consistency.
+You can also adapt the default tidyverse style to your liking (e.g. different identation). What matters is the consistency.
 
 #### code linting
-The [lintr](https://github.com/r-lib/lintr) package provides linting.
+The [lintr](https://github.com/r-lib/lintr) package provides linting functionalities.
 
 ## Python
-## code styling
-- [Black](https://github.com/psf/black)
+## code styling and linting 
 
+There are various libraries for styling and linting code, some covering both aspects.
 
-## Python setup recommendations
+See [this blog post](https://deepsource.io/blog/python-code-formatters/) for an overview over code styling libraries. [This one](https://realpython.com/python-code-quality/) goes into more detail about the difference between linting and styling/formatting.
