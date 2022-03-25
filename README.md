@@ -10,7 +10,15 @@ Especially in volunteering contexts, it is important to have concrete achievemen
 But how do we know that we're really done and have not forgotten anything important? At CorrelAid, we use a Definition of Done. 
 A Definition of Done (DoD) is a tool from Scrum, a popular framework that is often used in software development. It "creates transparency by providing everyone a shared understanding" of what "being done" means ([Scrum Guide](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100), p.12).
 
-We know that it can be hard to pay attention to things like code quality and documentation when your time resources are scarce - as is often the case with volunteering. However, we have found that things like good documentation and structure are a key factor for the long-term success and impact of CorrelAid projects. Well documented code can be adapted by NPO partners who are often coding beginners. With a good README, someone at CorrelAid can help out the NPO if a problem comes up a couple of months later when you're already off the project. Not having old, irrelevant code or visualizations in your repository makes it easier for someone not familiar with the project to find the relevant files and data.
+We know that it can be hard to pay attention to things like code quality and documentation when your time resources are scarce - as is often the case with volunteering. However, we have found that things like good documentation and structure are a key factor for the long-term success and impact of CorrelAid projects:
+
+- Well documented code can be adapted by NPO partners who are often coding beginners. 
+- With a good README, someone at CorrelAid can help out the NPO if a problem comes up a couple of months later when you're already off the project. 
+- Not having old, irrelevant code or visualizations in your repository makes it easier for someone not familiar with the project to find the relevant files and data. 
+- ...
+
+**All this really makes a difference for the long-term success of a project**. 
+
 # Definition of Done
 
 - **Functionality**: the code runs / has no defects
