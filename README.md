@@ -19,6 +19,10 @@ We know that it can be hard to pay attention to things like code quality and doc
 
 **All this really makes a difference for the long-term success of a project**. 
 
+# How do you use the DoD?
+First of all, the Definition of Done is a reminder for you as a volunteer to not forget the "chores" that are so important for a quality project outcome. When working on an issue/task, you can come back to the DoD to not forget something important like documenting your code properly. 
+Second of all, it serves as a "checklist" for you as a team to see whether something can be really considered "done". In your regular meeting, you review issues that have been worked on and are "done" against the DoD to see whether they're "really done". If yes, then you can close the issue - well done (pun intended!)! 🎉  If something is missing, the issue/task is not _really_ done and cannot be closed - but it will be by the next meeting, just some little things left to do! :) 💪
+
 # Definition of Done
 
 - **Functionality**: the code runs / has no defects
@@ -55,3 +59,5 @@ See the documentation about [R best practices here](https://docs.correlaid.org/p
 
 ## Python
 See the documentation about [Python best practices here](https://docs.correlaid.org/project-manual/project-team/best-practices/python).
+
+Feel free to submit best practices to Frie or directly to the [documentation repo](https://github.com/correlaid/docs).
