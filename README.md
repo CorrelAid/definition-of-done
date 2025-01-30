@@ -60,4 +60,4 @@ See the documentation about [R best practices here](https://docs.correlaid.org/p
 ## Python
 See the documentation about [Python best practices here](https://docs.correlaid.org/project-manual/project-team/best-practices/python).
 
-Feel free to submit best practices to Frie or directly to the [documentation repo](https://github.com/correlaid/docs).
+Feel free to submit best practices to Leo or directly to the [documentation repo](https://github.com/correlaid/docs).
